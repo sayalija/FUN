@@ -1,4 +1,5 @@
 public class WC{
+
 	public int countChars(String text){
 		return text.length();
 	}
@@ -17,4 +18,5 @@ public class WC{
 		WC wc = new WC(	);
 		System.out.println( wc.countLines(text)+"\t"+wc.countWords(text)+"\t"+wc.countChars(text) + "    abc.txt");
 	}
+
 }
